@@ -127,8 +127,7 @@ function RegistrationForTeachers() {
               onChange={e => setAcademicDegree(e.target.value)}
               options={[
                 { value: "Кандитат наук", text: "Кандитат наук" },
-                { value: "Доктор наук", text: "Доктор наук" },
-
+                { value: "Доктор наук", text: "Доктор наук" }
               ]} />
 
             <FormTextarea

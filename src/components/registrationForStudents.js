@@ -152,7 +152,7 @@ function RegistrationForStudents() {
                 { value: "Курс 3", text: "Курс 3" },
                 { value: "Курс 4", text: "Курс 4" },
                 { value: "Курс 5", text: "Курс 5" },
-                { value: "Курс 6", text: "Курс 6" },
+                { value: "Курс 6", text: "Курс 6" }
               ]} />
 
             <FormTextarea

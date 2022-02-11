@@ -15,9 +15,6 @@ const DisplayCheck = (props) => {
     academicTitle,
     academicDegree } = props
 
-
-
-
   return (
 
     <div className="">
