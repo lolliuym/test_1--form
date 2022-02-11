@@ -1,11 +1,11 @@
 ﻿import React from 'react';
- import FormInput from './UI/FormInput';
- import FormTextarea from './UI/FormTextarea';
-import {  useLocation } from "react-router-dom";
+import FormInput from './UI/FormInput';
+import FormTextarea from './UI/FormTextarea';
+import { useLocation } from "react-router-dom";
 
 const DisplayCheck = (props) => {
   const location = useLocation();
-  const { firstName,
+  const { header, firstName,
     lastName,
     password,
     document,
@@ -14,16 +14,16 @@ const DisplayCheck = (props) => {
     about,
     academicTitle,
     academicDegree } = props
-  
-   
- 
+
+
+
 
   return (
 
     <div className="">
       <div className="">
         <form action=""   >
-          <h1 className="my-4 text-2xl font-bold text-center ">Проверка заявки студентов
+          <h1 className="my-4 text-2xl font-bold text-center ">Проверка заявки {header}
           </h1>
           <div className="">
 

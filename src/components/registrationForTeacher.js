@@ -155,6 +155,7 @@ function RegistrationForTeachers() {
       </div>
       <div className="flex flex-col w-full max-w-md p-4 mt-4 mb-4 bg-white rounded-md shadow-md">
         <DisplayCheck
+          header={"преподавателей"}
           firstName={firstName}
           lastName={lastName}
           password={password}
