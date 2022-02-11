@@ -1,0 +1,78 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "password": "12345",
+      "document": "паспорт РФ",
+      "degree": "бакалавр",
+      "course": "курс 2",
+      "about": "Обожаю кофе"
+    },
+    {
+      "id": 1644600763947,
+      "name": "safddfs",
+      "email": "sdafsfd"
+    },
+    {
+      "id": 1644600764323,
+      "name": "safddfs",
+      "email": "sdafsfd"
+    },
+    {
+      "id": 1644600952787,
+      "firstName": "wrewrewer"
+    },
+    {
+      "id": 1644600953891,
+      "firstName": "wrewrewer"
+    },
+    {
+      "id": 1644601209404,
+      "firstName": "SDF",
+      "lastName": "SDF",
+      "password": "sdf",
+      "document": "passport",
+      "degree": "degree-4",
+      "course": "course-1",
+      "about": ""
+    },
+    {
+      "id": 1644606000076,
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "document": [
+        "Паспорт РФ"
+      ],
+      "degree": "",
+      "course": "",
+      "about": ""
+    },
+    {
+      "id": 1644606007540,
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "document": [
+        "Паспорт РФ"
+      ],
+      "degree": "",
+      "course": "",
+      "about": ""
+    },
+    {
+      "id": 1644606074853,
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "document": [
+        "Паспорт РФ"
+      ],
+      "degree": "",
+      "course": "",
+      "about": ""
+    }
+  ]
+}
