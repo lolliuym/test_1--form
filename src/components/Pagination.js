@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react'
+﻿import React from 'react'
 import { Link, useLocation } from "react-router-dom";
 
 const Pagination = () => {
@@ -6,14 +6,14 @@ const Pagination = () => {
 
   return (
     <div className="">
-      <div className="mx-auto mb-4 ">
-        
+      <div className="mx-auto mt-4 mb-4 ">
+
         <div className="flex justify-center">
           <Link to="/students"   >
-            <button type="button" className={location.pathname == "/students" ? " rounded-l-xl btn_pagination btn_pagination--active" : 'rounded-l-xl btn_pagination'}  >Студентов</button>
+            <button type="button" className={location.pathname === "/students" ? " rounded-l-xl btn_pagination btn_pagination--active" : 'rounded-l-xl btn_pagination'}  >Студентов</button>
           </Link>
           <Link to="/teachers" >
-            <button type="button" className={location.pathname == "/teachers" ? " rounded-r-xl btn_pagination btn_pagination--active" : 'rounded-r-xl btn_pagination'} >Преподавателей</button>
+            <button type="button" className={location.pathname === "/teachers" ? " rounded-r-xl btn_pagination btn_pagination--active" : 'rounded-r-xl btn_pagination'} >Преподавателей</button>
           </Link>
         </div>
       </div >

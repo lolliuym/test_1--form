@@ -1,9 +1,7 @@
-﻿import React, { useState } from 'react';
-import FormCheck from './UI/FormCheck';
-import FormInput from './UI/FormInput';
-import FormSelect from './UI/FormSelect';
-import FormTextarea from './UI/FormTextarea';
-import { Link, useLocation } from "react-router-dom";
+﻿import React from 'react';
+ import FormInput from './UI/FormInput';
+ import FormTextarea from './UI/FormTextarea';
+import {  useLocation } from "react-router-dom";
 
 const DisplayCheck = (props) => {
   const location = useLocation();

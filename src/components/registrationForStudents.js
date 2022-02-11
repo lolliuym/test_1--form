@@ -46,7 +46,15 @@ function RegistrationForStudents() {
         setPost(response.data)
         console.log(response.data)
       });
+    setFirstName('')
+    setLastName('')
+    setPassword('')
+    setDocument([])
+    setDegree('')
+    setCourse('')
+    setAbout('')
     return res.data
+
 
   }
 
@@ -66,7 +74,7 @@ function RegistrationForStudents() {
       <div className="flex flex-col w-full max-w-md p-4 mt-4 mb-4 mr-4 bg-white rounded-md shadow-md">
         <h1 className="my-4 text-2xl font-bold text-center ">Оформление заявки
         </h1>
-        <form action=""   >
+        <form action=""   required>
 
           <div className="">
             <FormInput

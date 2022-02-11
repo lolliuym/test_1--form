@@ -6,7 +6,7 @@ const FormSelect = (props) => {
 
   return (
     <div className={classBlock}>
-      <label className={classHeader}>{header}</label>
+      <label className={classHeader} >{header}</label>
       <select name={name} className={classSelect} onChange={onChange} >
         <option value="" disabled selected>{defaultValue}</option>
         {options.map((option, index) =>
