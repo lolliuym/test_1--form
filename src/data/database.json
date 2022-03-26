@@ -9,6 +9,26 @@
       "degree": "",
       "course": "",
       "about": ""
+    },
+    {
+      "id": 1645292052975,
+      "firstName": "Аб",
+      "lastName": "Аб",
+      "password": "Аб",
+      "document": [],
+      "degree": "",
+      "course": "",
+      "about": ""
+    },
+    {
+      "id": 1648297862586,
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "document": [],
+      "degree": "",
+      "course": "Курс 5",
+      "about": ""
     }
   ],
   "teachers": [

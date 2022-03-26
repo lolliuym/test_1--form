@@ -8,7 +8,7 @@ const FormSelect = (props) => {
     <div className={classBlock}>
       <label className={classHeader} >{header}</label>
       <select value={value} name={name} className={classSelect} onChange={onChange} >
-        <option value={value} disabled selected>{defaultValue}</option>
+        <option value={defaultValue} disabled selected>{defaultValue}</option>
         {options.map((option, index) =>
           <option key={index} value={option.value}>{option.text}</option>
         )}
